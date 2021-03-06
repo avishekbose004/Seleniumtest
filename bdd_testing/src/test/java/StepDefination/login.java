@@ -23,13 +23,13 @@ public class login {
 
 	@When("^User clicks on submit button$")
 	public void user_clicks_on_submit_button() {
-	    System.out.println("Home page2");
+	    System.out.println("Home page 2 is found");
 	    throw new io.cucumber.java.PendingException();
 	}
 
 	@Then("^User is able to login$")
 	public void user_is_able_to_login() {
-	    System.out.println("Home page3");
+	    System.out.println("Home page3 is found");
 	    throw new io.cucumber.java.PendingException();
 	}
 
